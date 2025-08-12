@@ -18,5 +18,17 @@ def home():
 def solar_system():
     return render_template('solar-system.html')
 
+@app.route('/quantum-computing')
+def quantum():
+    return render_template('quantum-computing.html')
+
+@app.route('/climate-change')
+def climate():
+    return render_template('climate-change.html')
+
+@app.route('/bitcoin')
+def bitcoin():
+    return render_template('bitcoin.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
