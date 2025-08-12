@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;  # Sets clean font for readability
+  margin: 20px;  # Adds space around content
+  background-color: #f4f4f4;  # Light background for modern look
+}
+h1 {
+  color: #2c3e50;  # Dark blue for headings
+}
+h2 {
+  color: #34495e;  # Slightly lighter for subheadings
+}
+ul {
+  line-height: 1.6;  # Improves list spacing
+}
+a {
+  color: #3498db;  # Blue links for visibility
+  text-decoration: none;  # Removes underline for clean design
+}
+a:hover {
+  text-decoration: underline;  # Underline on hover for interaction
+}
