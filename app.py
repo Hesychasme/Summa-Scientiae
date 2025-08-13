@@ -3,7 +3,7 @@
 """
 Created on Sun Jul  6 21:02:14 2025
 
-@author: thomas
+@author: Hesychasme
 """
 
 from flask import Flask, render_template
